@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    padding: 100px;
+    font-family: arial;
+}
+
+label {
+    margin: 0 0 5px;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 7px;
+}
